@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mandiri Sukses</string>
+    <string name="label_dashboard_see_all">See All</string>
+    <string name="label_customer_badge_name">Riswan</string>
+    <string name="label_customer_badge_account_no">1000007711</string>
+    <string name="label_customer_badge_view_balance">Lihat Saldo</string>
+    <string name="label_achievement_title">Pencapaian Anda</string>
+    <string name="label_read_more">Baca selanjutnya</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/view_customer_badge"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_dashboard_promo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/tv_dashboard_seeall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:textColor="#888888"
+            android:gravity="center_horizontal"
+            android:text="@string/label_dashboard_see_all"
+            android:layout_below="@id/recycler_dashboard_promo"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="52dp"
+            android:layout_marginEnd="52dp"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/view_achievement"/>
+
+</LinearLayout>

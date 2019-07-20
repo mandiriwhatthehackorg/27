@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp" >
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/layout_customer_badge"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    app:cardCornerRadius="8dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="8dp">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_customer_badge_avatar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        tools:ignore="ContentDescription"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp">
+
+        <TextView
+            android:id="@+id/textview_customer_badge_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_customer_badge_name"
+            android:textSize="12sp"
+            android:textColor="@color/blue_dark"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:id="@+id/textview_customer_badge_account_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_customer_badge_account_no"
+            android:textSize="9sp"
+            android:textColor="@color/blue_dark" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_customer_badge_view_balance"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_width="85dp"
+        android:layout_height="31dp"
+        android:textSize="10sp"
+        android:layout_gravity="center_vertical"
+        android:text="@string/label_customer_badge_view_balance"
+        android:background="@drawable/outline_blue_button"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>
