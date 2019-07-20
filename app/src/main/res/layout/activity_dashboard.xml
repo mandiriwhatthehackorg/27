@@ -33,4 +33,10 @@
 
     <include layout="@layout/view_achievement"/>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/income"/>
+
 </LinearLayout>

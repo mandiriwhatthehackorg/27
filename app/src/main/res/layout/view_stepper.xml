@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="379dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/imageview_stepper_first"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/oval_blue"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"/>
+
+    <TextView
+        android:id="@+id/textview_stepper_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:textStyle="bold"
+        android:text="1"/>
+
+    <TextView
+        android:id="@+id/textview_stepper_achievement_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:textColor="@color/blue_dark"
+        android:layout_below="@id/imageview_stepper_first"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:textStyle="bold"
+        android:text="Sudah pintar \n\tcari duit"/>
+
+    <ImageView
+        android:id="@+id/imageview_stepper_second"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/oval_blue"
+        android:layout_toRightOf="@id/imageview_stepper_first"
+        android:layout_toEndOf="@id/imageview_stepper_first"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp" />
+
+    <TextView
+        android:id="@+id/textview_stepper_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/imageview_stepper_first"
+        android:layout_toEndOf="@id/imageview_stepper_first"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:textStyle="bold"
+        android:text="2"/>
+
+    <TextView
+        android:id="@+id/textview_stepper_achievement_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:textColor="@color/blue_dark"
+        android:layout_toRightOf="@id/imageview_stepper_first"
+        android:layout_toEndOf="@id/imageview_stepper_first"
+        android:layout_below="@id/imageview_stepper_second"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:textStyle="bold"
+        android:text="\tSudah pintar \nmenyimpan duit"/>
+
+    <ImageView
+        android:id="@+id/imageview_stepper_third"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/oval_grey"
+        android:layout_toRightOf="@id/imageview_stepper_second"
+        android:layout_toEndOf="@id/imageview_stepper_second"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp" />
+
+    <TextView
+        android:id="@+id/textview_stepper_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/imageview_stepper_second"
+        android:layout_toEndOf="@id/imageview_stepper_second"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:textStyle="bold"
+        android:text="3"/>
+
+    <TextView
+        android:id="@+id/textview_stepper_achievement_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:textColor="@color/light_grey"
+        android:layout_toRightOf="@id/imageview_stepper_second"
+        android:layout_toEndOf="@id/imageview_stepper_second"
+        android:layout_below="@id/imageview_stepper_third"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:textStyle="bold"
+        android:text="Sudah pintar \ngandakan duit"/>
+
+    <ImageView
+        android:id="@+id/imageview_stepper_fourth"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/oval_grey"
+        android:layout_toRightOf="@id/imageview_stepper_third"
+        android:layout_toEndOf="@id/imageview_stepper_third"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp" />
+
+    <ImageView
+        android:id="@+id/imageview_stepper_lock"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:src="@drawable/lock"
+        android:layout_toRightOf="@id/imageview_stepper_third"
+        android:layout_toEndOf="@id/imageview_stepper_third"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp" />
+
+    <TextView
+        android:id="@+id/textview_stepper_achievement_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:textColor="@color/light_grey"
+        android:layout_toRightOf="@id/imageview_stepper_third"
+        android:layout_toEndOf="@id/imageview_stepper_third"
+        android:layout_below="@id/imageview_stepper_fourth"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:textStyle="bold"
+        android:text="Sudah pantas \nmenjadi sukses"/>
+
+</RelativeLayout>
