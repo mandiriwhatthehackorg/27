@@ -88,7 +88,7 @@ public class PromoAdapter extends RecyclerView.Adapter<PromoAdapter.PromoViewHol
         }
     }
 
-    static class PromoViewHolder extends RecyclerView.ViewHolder {
+    public static class PromoViewHolder extends RecyclerView.ViewHolder {
 
         @BindView(R.id.iv_row_promo_image)
         ImageView imageViewPoster;

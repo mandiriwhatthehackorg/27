@@ -8,7 +8,7 @@
  * Copyright (c) 2019 All Rights Reserved.
  */
 
-package com.wth.mandirisukses;
+package com.wth.mandirisukses.activity;
 
 
 import android.os.Bundle;
@@ -17,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.wth.mandirisukses.R;
 import com.wth.mandirisukses.adapter.PromoAdapter;
 
 import butterknife.BindView;

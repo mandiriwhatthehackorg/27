@@ -1,10 +1,12 @@
-package com.wth.mandirisukses;
+package com.wth.mandirisukses.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.wth.mandirisukses.R;
 
 public class SplashActivity extends AppCompatActivity {
 

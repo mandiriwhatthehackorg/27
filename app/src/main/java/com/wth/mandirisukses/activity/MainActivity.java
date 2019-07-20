@@ -1,8 +1,10 @@
-package com.wth.mandirisukses;
+package com.wth.mandirisukses.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.wth.mandirisukses.R;
 
 public class MainActivity extends AppCompatActivity {
 
