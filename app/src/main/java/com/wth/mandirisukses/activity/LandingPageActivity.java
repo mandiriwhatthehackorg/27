@@ -34,7 +34,7 @@ public class LandingPageActivity extends AppCompatActivity {
 
     @OnClick(R.id.btn_landing_register)
     void onRegister() {
-        // TODO going to register page
+        navigateTo(RegisterActivity.class);
     }
 
     @OnClick(R.id.btn_landing_login)
