@@ -67,6 +67,7 @@
         android:textSize="10sp"
         android:layout_gravity="center_vertical"
         android:text="@string/label_customer_badge_view_balance"
+        android:textColor="@color/light_blue"
         android:background="@drawable/outline_blue_button"/>
 
 </LinearLayout>
